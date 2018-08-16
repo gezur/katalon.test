@@ -5,8 +5,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-Cookie ck = new Cookie("eIAMpropEHP", "userPrincipalName=pia.horisberger@finma.qa;roles=EHP_FAD;country=CH;")
+Cookie ck = new Cookie("eIAMpropEHP", "")
 
 WebDriver driver = DriverFactory.getWebDriver()
 
 driver.manage().addCookie(ck)
+driver.get("http://finma-ehp-ci/gesamtumfrage")
+
