@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="Basic" tests="1" failures="0" errors="0" time="10" timestamp="2018-08-16 15:58:09" hostname="gzu - nb50360.elcaNet.local" id="Test Suites/LoginMakeAppointment/Basic">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\GZU\\Documents\\02_ehp\\03_Katalon\\repos\\Tutorial_Test_Suite_03_CURA\\Reports\\LoginMakeAppointment\\Basic\\20180816_155808"/>
+         <property name="logFiles" value="C:\\Users\\GZU\\Documents\\02_ehp\\03_Katalon\\repos\\Tutorial_Test_Suite_03_CURA\\Reports\\LoginMakeAppointment\\Basic\\20180816_155808\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gzu - nb50360.elcaNet.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="10.10.128.22"/>
+         <property name="sessionId" value="c9840181-e2e1-4f98-9c97-f77460b26763"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic Login Logout" classname="Test Cases/Basic Login Logout" status="PASSED">
+         <system-out><![CDATA[2018-08-16 15:58:09 - [TEST_CASE][PASSED] - Test Cases/Basic Login Logout: Test Cases/Basic Login Logout
+
+2018-08-16 15:58:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 15:58:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 15:58:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2018-08-16 15:58:17 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2018-08-16 15:58:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Teilprozesse Test/Login' successfully
+
+2018-08-16 15:58:17 - [TEST_CASE][PASSED] - Test Cases/Teilprozesse Test/Login: Test Cases/Teilprozesse Test/Login
+
+2018-08-16 15:58:17 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' is double clicked on
+
+2018-08-16 15:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' is double clicked on
+
+2018-08-16 15:58:17 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_username'
+
+2018-08-16 15:58:17 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_username'
+
+2018-08-16 15:58:17 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control_1' is double clicked on
+
+2018-08-16 15:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control_1' is double clicked on
+
+2018-08-16 15:58:18 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_password'
+
+2018-08-16 15:58:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_password'
+
+2018-08-16 15:58:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-08-16 15:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-08-16 15:58:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Teilprozesse Test/Login' successfully
+
+2018-08-16 15:58:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Teilprozesse Test/Logout' successfully
+
+2018-08-16 15:58:18 - [TEST_CASE][PASSED] - Test Cases/Teilprozesse Test/Logout: Test Cases/Teilprozesse Test/Logout
+
+2018-08-16 15:58:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation Sidebar/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+2018-08-16 15:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/Page_CURA Healthcare Service/i_fa fa-bars' is clicked on
+
+2018-08-16 15:58:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation Sidebar/Page_CURA Healthcare Service/Navigation Profile' is clicked on
+
+2018-08-16 15:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/Page_CURA Healthcare Service/Navigation Profile' is clicked on
+
+2018-08-16 15:58:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Navigation Sidebar/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2018-08-16 15:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation Sidebar/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2018-08-16 15:58:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Teilprozesse Test/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-16 15:58:09 - [TEST_SUITE][PASSED] - Basic: Test Cases/Basic Login Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

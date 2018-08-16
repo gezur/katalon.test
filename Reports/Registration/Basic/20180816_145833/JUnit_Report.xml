@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic" time="25" tests="0" failures="1" errors="0">
+   <testsuite name="Basic" tests="0" failures="1" errors="0" time="25" timestamp="2018-08-16 14:58:34" hostname="gzu - nb50360.elcaNet.local" id="Test Suites/Registration/Basic">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\GZU\\Documents\\02_ehp\\03_Katalon\\repos\\Tutorial_Test_Suite_03_CURA\\Reports\\Registration\\Basic\\20180816_145833"/>
+         <property name="logFiles" value="C:\\Users\\GZU\\Documents\\02_ehp\\03_Katalon\\repos\\Tutorial_Test_Suite_03_CURA\\Reports\\Registration\\Basic\\20180816_145833\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gzu - nb50360.elcaNet.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="10.10.128.22"/>
+         <property name="sessionId" value="b3340edf-2fa2-4d23-9b8d-f45061f095e2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic" classname="Test Cases/Basic" status="FAILED">
+         <failure type="FAILED" message="Unable to double click on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NB50360', ip: '10.10.128.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2412, moz:profile: C:\Users\GZU\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b3340edf-2fa2-4d23-9b8d-f45061f095e2
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @placeholder = 'Username']})"/>
+         <system-out><![CDATA[2018-08-16 14:58:35 - [TEST_CASE][FAILED] - Test Cases/Basic: Test Cases/Basic FAILED because (of) Unable to double click on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NB50360', ip: '10.10.128.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2412, moz:profile: C:\Users\GZU\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b3340edf-2fa2-4d23-9b8d-f45061f095e2
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @placeholder = 'Username']})
+
+2018-08-16 14:58:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-16 14:58:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-16 14:58:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-08-16 14:58:42 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-08-16 14:58:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Teilprozesse Test/Login' successfully
+
+2018-08-16 14:58:42 - [TEST_CASE][PASSED] - Test Cases/Teilprozesse Test/Login: Test Cases/Teilprozesse Test/Login
+
+2018-08-16 14:58:43 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' is double clicked on
+
+2018-08-16 14:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' is double clicked on
+
+2018-08-16 14:58:49 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_username'
+
+2018-08-16 14:58:49 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_username'
+
+2018-08-16 14:58:49 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control_1' is double clicked on
+
+2018-08-16 14:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control_1' is double clicked on
+
+2018-08-16 14:58:50 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_password'
+
+2018-08-16 14:58:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_password'
+
+2018-08-16 14:58:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-08-16 14:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page - Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-08-16 14:58:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Teilprozesse Test/Login' successfully
+
+2018-08-16 14:58:50 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Teilprozesse Test/Make Appointment' (Root cause: Call Test Case 'Test Cases/Teilprozesse Test/Make Appointment' failed)
+
+2018-08-16 14:58:50 - [TEST_CASE][FAILED] - Test Cases/Teilprozesse Test/Make Appointment: Test Cases/Teilprozesse Test/Make Appointment FAILED because (of) Unable to double click on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NB50360', ip: '10.10.128.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2412, moz:profile: C:\Users\GZU\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b3340edf-2fa2-4d23-9b8d-f45061f095e2
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @placeholder = 'Username']})
+
+2018-08-16 14:58:50 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Teilprozesse Test/Login' (Root cause: Call Test Case 'Test Cases/Teilprozesse Test/Login' failed)
+
+2018-08-16 14:58:51 - [TEST_CASE][FAILED] - Test Cases/Teilprozesse Test/Login: Test Cases/Teilprozesse Test/Login FAILED because (of) Unable to double click on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NB50360', ip: '10.10.128.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2412, moz:profile: C:\Users\GZU\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b3340edf-2fa2-4d23-9b8d-f45061f095e2
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @placeholder = 'Username']})
+
+2018-08-16 14:58:51 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NB50360', ip: '10.10.128.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2412, moz:profile: C:\Users\GZU\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b3340edf-2fa2-4d23-9b8d-f45061f095e2
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @placeholder = 'Username']})
+
+2018-08-16 14:58:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-08-16 14:58:59 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NB50360', ip: '10.10.128.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2412, moz:profile: C:\Users\GZU\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b3340edf-2fa2-4d23-9b8d-f45061f095e2
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @placeholder = 'Username']})
+
+2018-08-16 14:58:59 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Teilprozesse Test/Login' (Root cause: Call Test Case 'Test Cases/Teilprozesse Test/Login' failed)
+
+2018-08-16 14:58:59 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Teilprozesse Test/Make Appointment' (Root cause: Call Test Case 'Test Cases/Teilprozesse Test/Make Appointment' failed)]]></system-out>
+         <system-err><![CDATA[2018-08-16 14:58:35 - [TEST_CASE][FAILED] - Test Cases/Basic: Test Cases/Basic FAILED because (of) Unable to double click on object 'Object Repository/Page - Login/Page_CURA Healthcare Service/input_form-control' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NB50360', ip: '10.10.128.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2412, moz:profile: C:\Users\GZU\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b3340edf-2fa2-4d23-9b8d-f45061f095e2
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @placeholder = 'Username']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-16 14:58:34 - [TEST_SUITE][INCOMPLETE] - Basic: null]]></system-out>
+      <system-err><![CDATA[2018-08-16 14:58:34 - [TEST_SUITE][INCOMPLETE] - Basic: null]]></system-err>
+   </testsuite>
+</testsuites>

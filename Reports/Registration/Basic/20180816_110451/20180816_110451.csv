@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic,Firefox 61.0,This is just basic stuff.,2018-08-16 11:04:53,2018-08-16 11:05:06,12.709s,PASSED
+,,,,,,
+Test Cases/Basic,Firefox 61.0,Basic working flow test for CURA,2018-08-16 11:04:53,2018-08-16 11:05:05,12.052s,PASSED
+openBrowser,Firefox 61.0,,2018-08-16 11:04:54,2018-08-16 11:04:58,4.861s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-16 11:04:58,2018-08-16 11:05:02,3.550s,PASSED
+click,Firefox 61.0,,2018-08-16 11:05:02,2018-08-16 11:05:02,0.478s,PASSED
+setText,Firefox 61.0,,2018-08-16 11:05:02,2018-08-16 11:05:03,0.138s,PASSED
+setEncryptedText,Firefox 61.0,,2018-08-16 11:05:03,2018-08-16 11:05:03,0.200s,PASSED
+click,Firefox 61.0,,2018-08-16 11:05:03,2018-08-16 11:05:03,0.468s,PASSED
+selectOptionByValue,Firefox 61.0,,2018-08-16 11:05:03,2018-08-16 11:05:04,0.386s,PASSED
+click,Firefox 61.0,,2018-08-16 11:05:04,2018-08-16 11:05:04,0.239s,PASSED
+click,Firefox 61.0,,2018-08-16 11:05:04,2018-08-16 11:05:04,0.272s,PASSED
+click,Firefox 61.0,,2018-08-16 11:05:04,2018-08-16 11:05:05,0.312s,PASSED
+setText,Firefox 61.0,,2018-08-16 11:05:05,2018-08-16 11:05:05,0.072s,PASSED
+click,Firefox 61.0,,2018-08-16 11:05:05,2018-08-16 11:05:05,0.351s,PASSED
+click,Firefox 61.0,,2018-08-16 11:05:05,2018-08-16 11:05:05,0.420s,PASSED

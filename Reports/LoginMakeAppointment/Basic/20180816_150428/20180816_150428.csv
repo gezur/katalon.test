@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic,Firefox 61.0,This is just basic stuff.,2018-08-16 15:04:30,2018-08-16 15:04:41,10.701s,PASSED
+,,,,,,
+Test Cases/Basic,Firefox 61.0,Basic working flow test for CURA,2018-08-16 15:04:30,2018-08-16 15:04:41,10.320s,PASSED
+openBrowser,Firefox 61.0,,2018-08-16 15:04:31,2018-08-16 15:04:35,4.020s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-16 15:04:35,2018-08-16 15:04:37,2.489s,PASSED
+callTestCase,Firefox 61.0,,2018-08-16 15:04:37,2018-08-16 15:04:38,1.352s,PASSED
+callTestCase,Firefox 61.0,,2018-08-16 15:04:38,2018-08-16 15:04:41,2.145s,PASSED
+closeBrowser,Firefox 61.0,,2018-08-16 15:04:41,2018-08-16 15:04:41,0.002s,PASSED

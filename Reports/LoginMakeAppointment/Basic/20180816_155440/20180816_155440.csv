@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic,Firefox 61.0,This is just basic stuff.,2018-08-16 15:54:41,2018-08-16 15:55:42,1m - 1.171s,FAILED
+,,,,,,
+Test Cases/Basic Login Logout,Firefox 61.0,,2018-08-16 15:54:42,2018-08-16 15:55:42,1m - 0.534s,FAILED
+openBrowser,Firefox 61.0,,2018-08-16 15:54:42,2018-08-16 15:54:46,3.740s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-16 15:54:46,2018-08-16 15:54:48,2.505s,PASSED
+callTestCase,Firefox 61.0,,2018-08-16 15:54:48,2018-08-16 15:55:11,22.916s,PASSED
+callTestCase,Firefox 61.0,,2018-08-16 15:55:11,2018-08-16 15:55:42,31.016s,FAILED
